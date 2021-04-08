@@ -57,6 +57,7 @@
 	</div>
 </div>
 <script>
+
 //기존 로그인 상태를 가져오기 위해 Facebook에 대한 호출
 function statusChangeCallback(res){
 	statusChangeCallback(response);
@@ -80,7 +81,7 @@ function fnFbCustomLogin(){
 
 window.fbAsyncInit = function() {
 	FB.init({
-		appId      : '1588150011384568',
+		appId      : '1588150011384568', // 앱 ID
 		cookie     : true,
 		xfbml      : true,
 		version    : 'v10.0'

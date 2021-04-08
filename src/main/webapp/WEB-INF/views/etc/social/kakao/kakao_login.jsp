@@ -53,16 +53,16 @@
 				        <!-- kakao-->
 				        <a href="javascript:void(0)" class="social-link social-kakao d-flex align-items-center py-2 rounded-pill shadow-sm">
 					        <span class="icon py-1">
-					        	<i class="fab fa-kickstarter fa-fw text-white"></i>
-					        </span><span class="font-weight-bold text-white">카카오 로그인</span>
+					        	<i class="fab fa-kickstarter fa-fw" style="color:#372223"></i>
+					        </span><span class="font-weight-bold" style="color:#372223">카카오 로그인</span>
 				        </a>
 				    </li>
 				    <li class="mb-2" onclick="kakaoLogout(); return false;">
 				        <!-- kakao-->
 				        <a href="javascript:void(0)" class="social-link social-kakao d-flex align-items-center py-2 rounded-pill shadow-sm">
 					        <span class="icon py-1">
-					        	<i class="fab fa-kickstarter fa-fw text-white"></i>
-					        </span><span class="font-weight-bold text-white">카카오 로그아웃</span>
+					        	<i class="fab fa-kickstarter fa-fw" style="color:#372223"></i>
+					        </span><span class="font-weight-bold" style="color:#372223">카카오 로그아웃</span>
 				        </a>
 				    </li>
                 </ul>
