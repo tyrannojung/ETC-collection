@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: rgb(226, 231, 236);
+}
+
+.join_box {
+    width: 600px;
+    /* height: 500px; */
+    border: 1px solid #ddd;    
+    margin: 100px auto;
+    background: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.box_top {
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 10px;
+
+    background: rgb(245, 245, 245);
+}
+.box_top > p {
+    font-size: 16px;
+    font-weight: 800;
+}
+.box_bot {
+    width: 100%;
+    padding: 15px 40px;
+    box-sizing: border-box;
+}
+.join_txt {
+    font-size: 14px;
+    font-weight: 600;
+}
+.box_bot input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 10px;
+    box-sizing: border-box;
+
+    outline: none;
+
+    margin-bottom: 10px;
+}
+
+.wid_50pec > input {
+    width: calc(50% - 11px / 2);
+}
+.wid_50pec > input:nth-of-type(1) {
+    margin-right: 5px;
+}
+.ct_file {
+    width: 100%;
+    margin-top: 10px;
+    /* width: 50%; */
+    height: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+.ct_file > button {
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+.bank_name {
+    width: 130px;
+    height: 30px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.bank_name + input {
+    width: calc(100% - 140px - 0.1px) !important;
+}
+.w_50pec {
+    width: 50% !important;
+}
+.w_300 {
+    width: 300px;
+}
+.fin {
+    width: 320px;
+    margin: 0 auto;
+}
+.submit_bt {
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    color: #222;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+    margin: 20px auto; 
+}
+.color_blue {
+    background: #556fb5;
+    color: white;
+}
+.color_blue:hover {
+    background: #748ed8;
+}
