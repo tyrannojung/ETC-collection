@@ -36,32 +36,39 @@
 }
 
 </style>
-<meta charset="UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
+<%@include file="../../include/nav.jsp" %>
 <div class="container">
-	<div class="d-flex justify-content-center">
-	  <h1>Kakao 로그인 & 로그아웃</h1>
+	<div class="row justify-content-center">
+		<div class="col-lg-8 col-md-10" style="margin-top: 60px;">
+			<div class="card-header text-uppercase font-weight-bold" style="line-height: 40px">KAKAO LOGIN</div>
+			<div class="card-body">
+		        <div class="d-flex justify-content-end mt-2">
+	            </div>
+			</div>
+			<div class="card-footer">
+	            <ul class="list-unstyled">
+                   <li class="mb-2" onclick="kakaoLogin(); return false;">
+				        <!-- kakao-->
+				        <a href="javascript:void(0)" class="social-link social-kakao d-flex align-items-center py-2 rounded-pill shadow-sm">
+					        <span class="icon py-1">
+					        	<i class="fab fa-kickstarter fa-fw text-white"></i>
+					        </span><span class="font-weight-bold text-white">카카오 로그인</span>
+				        </a>
+				    </li>
+				    <li class="mb-2" onclick="kakaoLogout(); return false;">
+				        <!-- kakao-->
+				        <a href="javascript:void(0)" class="social-link social-kakao d-flex align-items-center py-2 rounded-pill shadow-sm">
+					        <span class="icon py-1">
+					        	<i class="fab fa-kickstarter fa-fw text-white"></i>
+					        </span><span class="font-weight-bold text-white">카카오 로그아웃</span>
+				        </a>
+				    </li>
+                </ul>
+			</div>
+		</div>
 	</div>
-	<ul class="list-unstyled">
-	    <li class="mb-2" onclick="kakaoLogin(); return false;">
-	        <!-- kakao-->
-	        <a href="javascript:void(0)" class="social-link social-kakao d-flex align-items-center py-2 rounded-pill shadow-sm">
-		        <span class="icon py-1">
-		        	<i class="fab fa-kickstarter fa-fw text-white"></i>
-		        </span><span class="font-weight-bold text-white">카카오 로그인</span>
-	        </a>
-	    </li>
-	    <li class="mb-2" onclick="kakaoLogout(); return false;">
-	        <!-- kakao-->
-	        <a href="javascript:void(0)" class="social-link social-kakao d-flex align-items-center py-2 rounded-pill shadow-sm">
-		        <span class="icon py-1">
-		        	<i class="fab fa-kickstarter fa-fw text-white"></i>
-		        </span><span class="font-weight-bold text-white">카카오 로그아웃</span>
-	        </a>
-	    </li>
-	</ul>
 </div>
 <!-- 카카오 스크립트 -->
 <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
