@@ -63,7 +63,6 @@ function init() {
 		options = new gapi.auth2.SigninOptionsBuilder();
 		options.setPrompt('select_account');
 		options.setScope('email profile openid https://www.googleapis.com/auth/user.birthday.read');
-		
 		gapi.auth2.getAuthInstance().attachClickHandler('GgCustomLogin', options, onSignIn, onSignInFailure);
 	})
 }
@@ -75,7 +74,6 @@ function onSignIn(googleUser) {
 		, method:'GET'
 	})
 	.done(function(e){
-		console.log(e);
 		var profile = googleUser.getBasicProfile();
 		console.log(profile)
 	})
