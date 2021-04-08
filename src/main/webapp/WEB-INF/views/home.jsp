@@ -22,7 +22,7 @@
     <div class="col-sm-4">
       <h3>PAY</h3>
       <p class="mt-3" onclick="location.href='/bootpay';"><b>1. Bootpay</b></p>
-      <p class="mt-2"><b>2. Iamport</b></p>
+      <p class="mt-2" onclick="location.href='/iamport';"><b>2. Iamport</b></p>
     </div>
     <div class="col-sm-4">
       <h3>OTHER</h3>

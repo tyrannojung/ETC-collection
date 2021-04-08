@@ -49,7 +49,7 @@
 			<div class="card-footer">
 	            <ul class="list-unstyled">
                    <li class="mb-2" onclick="bootpay(); return false;">
-                       <!-- Facebook--><a href="javascript:void(0)" class="social-link social-bootpay d-flex align-items-center py-2 rounded-pill shadow-sm"><span class="icon py-1"><i class="fas fa-bold fa-fw text-white"></i></span><span class="font-weight-bold text-white">결제하기</span></a>
+                       <!-- Bootpay--><a href="javascript:void(0)" class="social-link social-bootpay d-flex align-items-center py-2 rounded-pill shadow-sm"><span class="icon py-1"><i class="fas fa-bold fa-fw text-white"></i></span><span class="font-weight-bold text-white">결제하기</span></a>
                    </li>
                 </ul>
 			</div>
