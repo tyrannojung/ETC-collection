@@ -17,7 +17,7 @@ public class FacebookController {
 	private static final Logger LOGGER = LoggerFactory.getLogger(KakaoController.class);
 	
 	@RequestMapping(value = "/facebookLogin", method = RequestMethod.GET)
-	public String facebookAdress(
+	public String facebookLogin(
 			Model model
 			, Locale locale) {
 		
