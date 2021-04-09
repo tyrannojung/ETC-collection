@@ -8,10 +8,10 @@
 <div class="container">
 	<div class="row justify-content-center">
 		<div class="col-lg-8 col-md-10" style="margin-top: 60px;">
-			<div class="card-header text-uppercase font-weight-bold" style="line-height: 40px">BTS - API</div>
+			<div class="card-header text-uppercase font-weight-bold" style="line-height: 40px">REST - API</div>
 			<div class="card-body">
-			<h6>wid 조회</h6>
-			<hr />
+				<h6>BTS wid 조회</h6>
+				<hr />
 				<div class="form-group">
 			      <label for="usr">ID:</label>
 			      <input type="text" class="form-control" id="usr" name="username">
@@ -19,7 +19,7 @@
 		        <div class="d-flex justify-content-end mt-2">
 		        	<button type="button" class="btn btn-outline-primary" onclick="api_json()">전송</button>
 	            </div>
-	        <hr />    
+		        <hr />    
 			</div>
 		</div>
 	</div>
