@@ -30,8 +30,9 @@
       <p class="mt-2"><b>2. RestAPI</b></p>
       <div onclick="location.href='/btsApiRest';"> - bts - api</div>
       <div onclick="location.href='/businessNumberCheckRest';"> - Business Number api</div>
-      <p class="mt-2"><b>3. SMS</b></p>
-      <p class="mt-2"><b>4. MAIL</b></p>
+      <p class="mt-2" onclick="location.href='/niceIdenVerification';"><b>3. Identity verification(Nice)</b></p>
+      <p class="mt-2"><b>4. SMS</b></p>
+      <p class="mt-2"><b>5. MAIL</b></p>
     </div>
   </div>
 </div>
