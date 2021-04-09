@@ -26,7 +26,7 @@
     </div>
     <div class="col-sm-4">
       <h3>OTHER</h3>
-      <p class="mt-3"><b>1. Summernote</b></p>
+      <p class="mt-3" onclick="location.href='/summernote';"><b>1. Summernote</b></p>
       <p class="mt-2"><b>2. RestAPI</b></p>
       <div> - bts - api</div>
       <div> - Business Number api</div>

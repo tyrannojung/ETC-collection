@@ -19,12 +19,10 @@ import com.siot.IamportRestClient.exception.IamportResponseException;
 import com.siot.IamportRestClient.response.IamportResponse;
 import com.siot.IamportRestClient.response.Payment;
 
-import kr.ne.abc.bts.etc.kakao.controller.KakaoController;
-
 @Controller
 public class IamportController {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(KakaoController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(IamportController.class);
 	
 	private IamportClient api;
 	

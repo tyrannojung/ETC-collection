@@ -9,12 +9,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import kr.ne.abc.bts.etc.kakao.controller.KakaoController;
-
 @Controller
 public class GoogleController {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(KakaoController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(GoogleController.class);
 	
 	@RequestMapping(value = "/googleLogin", method = RequestMethod.GET)
 	public String googleLogin(

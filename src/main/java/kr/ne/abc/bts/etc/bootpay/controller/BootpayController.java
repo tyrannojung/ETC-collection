@@ -16,12 +16,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import kr.ne.abc.bts.etc.bootpay.BootpayApi;
-import kr.ne.abc.bts.etc.kakao.controller.KakaoController;
 
 @Controller
 public class BootpayController {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(KakaoController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(BootpayController.class);
 
 	private BootpayApi api;
 	
