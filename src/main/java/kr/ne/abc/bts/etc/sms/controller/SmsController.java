@@ -39,7 +39,7 @@ public class SmsController {
 	    String callBack = send_number; // 보내는 전화번호(발신번호 제한으로 인한 고정)
 	    String caller = "bts_207"; // 발신자 성명(option)
 	    String msg = sms_content; // 보낼 메시지 최대 90byte		    
-	    String smsresult = null;
+	    String smsresult = "";
 	    
 	    System.out.println("callNo : " + callNo);
 	    System.out.println("callBack : " + callBack);

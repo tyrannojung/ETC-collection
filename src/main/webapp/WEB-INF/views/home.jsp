@@ -32,7 +32,7 @@
       <div onclick="location.href='/businessNumberCheckRest';"> - Business Number api</div>
       <p class="mt-2" onclick="location.href='/niceIdenVerification';"><b>3. Identity verification(Nice)</b></p>
       <p class="mt-2" onclick="location.href='/smsWrite';"><b>4. SMS</b></p>
-      <p class="mt-2"><b>5. MAIL</b></p>
+      <p class="mt-2" onclick="location.href='/mailWrite';"><b>5. MAIL</b></p>
     </div>
   </div>
 </div>
