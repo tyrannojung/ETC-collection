@@ -77,6 +77,8 @@ function onSignIn(googleUser) {
 	})
 	.done(function(e){
 		var profile = googleUser.getBasicProfile();
+		
+		console.log(e.birthdays);
 		console.log(profile)
 	})
 	.fail(function(e){

@@ -13,11 +13,14 @@
       <h3>Social</h3>
       <p class="mt-3"><b>1. KAKAO</b></p>
       <div onclick="location.href='/kakaoLogin';"> - kakao-login</div>
+      <div onclick="location.href='/kakaoRestLogin';"> - kakao-rest-login</div>
       <div onclick="location.href='/kakaoAdress';"> - kakao-address</div>
       <p class="mt-2"><b>2. FACEBOOK</b></p>
       <div onclick="location.href='/facebookLogin';"> - facebook-login</div>
       <p class="mt-2"><b>3. GOOGLE</b></p>
       <div onclick="location.href='/googleLogin';"> - google-login</div>
+      <p class="mt-2"><b>4. Naver</b></p>
+      <div onclick="location.href='/naverLogin';"> - naver-login</div>
     </div>
     <div class="col-sm-4">
       <h3>PAY</h3>
